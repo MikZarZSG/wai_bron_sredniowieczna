@@ -38,14 +38,26 @@ nav ul {
     font-size: 3rem;
     /* height: 100px;*/
     line-height: 200%;
+    display: inline-block;
 }
 
 nav ul a {
     color: #fff;
     text-decoration: none;
     display: block;
+    padding: 0 30px;
 }
 
 nav ul > li {
+    float: left;
+    border-right: 2px dashed #fff;
+}
+
+nav ul > li:first-child {
     display: inline-block;
+    border-left: 2px dashed #fff;
+}
+
+nav ul > li:hover {
+    background-color: #666;
 }
