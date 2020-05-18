@@ -61,3 +61,12 @@ nav ul > li:first-child {
 nav ul > li:hover {
     background-color: #666;
 }
+
+.ad {
+    margin-top: 30px;
+}
+
+.ad img {
+    display: block;
+    margin: 0 auto;
+}
