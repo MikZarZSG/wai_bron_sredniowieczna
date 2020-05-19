@@ -97,3 +97,28 @@ h2 {
 .o-mnie p {
     padding: 20px 20px;
 }
+
+.bron-biala {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.wpis {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    margin: 10px; 1%;
+}
+
+.wpis img {
+    width: 100%;
+    height: auto;
+}
+
+.wpis p {
+    text-align: center;
+}
