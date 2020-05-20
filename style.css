@@ -93,6 +93,8 @@ nav ul > li:hover {
 
 h2 {
     font-size: 3rem;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .ikona-img  {
@@ -124,6 +126,8 @@ h2 {
 
 h3 {
     font-size: 2rem;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .wpis {
@@ -147,7 +151,6 @@ h3 {
     text-align: center;
 }
 
-.bron-dystansowa {
+.bron-dystansowa, .zamki {
     background-color: #444;
-    padding-top: 1px;
 }
