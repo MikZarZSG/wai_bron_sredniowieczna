@@ -134,7 +134,7 @@ h3 {
     display: inline-block;
     width: 30%;
     height: 30%;
-    margin: 10px; 1%;
+    margin: 10px 1%;
 }
 
 .wpis img {
@@ -158,4 +158,27 @@ h3 {
 .wspolpraca p {
     padding: 20px 20px;
     text-align: justify;
+}
+
+.zbior-social {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.social {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin: 10px 4%;
+}
+
+.social img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.social img:hover {
+    opacity: 1;
 }
