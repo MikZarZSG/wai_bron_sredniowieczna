@@ -151,7 +151,7 @@ h3 {
     text-align: center;
 }
 
-.bron-dystansowa, .zamki, .zycie-sredniowiecze, .kontakt {
+.bron-dystansowa, .zamki, .zycie-sredniowiecze, .kontakt, footer {
     background-color: #444;
 }
 
@@ -217,4 +217,10 @@ h3 {
     float: left;
     text-align: center;
     margin-left: 5%;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
 }
