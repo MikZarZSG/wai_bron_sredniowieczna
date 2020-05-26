@@ -192,12 +192,12 @@ h3 {
 .kanal {
     width: 25vw;
     display: inline-block;
-    margin: 10px 1.5%;
+    margin: 10px 2vw;
 }
 
 .kanal a {
     float: left;
-    width: 15vw;
+    width: 10vw;
     height: auto;
 }
 
@@ -213,21 +213,21 @@ h3 {
 }
 
 .kanal-opis {
-    width: 10vw;
-    height: 15vw;
+    width: 15vw;
+    height: 10vw;
     float: left;
     position: relative;
 }
 
 .kanal p {
-    text-align: center;
+    text-align: left;
     margin: 0;
     
     position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 footer p {
