@@ -212,12 +212,22 @@ h3 {
     opacity: 1;
 }
 
-.kanal p {
+.kanal-opis {
     width: 45%;
-    line-height: 200%;
+    height: 150px;
     float: left;
+    position: relative;
+}
+
+.kanal p {
     text-align: center;
-    margin-left: 5%;
+    margin: 0;
+    
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
 }
 
 footer p {
